@@ -1,6 +1,10 @@
 package com.jtrent238.pocketutilities;
 
+import java.awt.Frame;
+import java.net.MalformedURLException;
+
 import com.jtrent238.pocketutilities.common.CommonProxy;
+import com.jtrent238.pocketutilities.util.ConsoleFrame;
 
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.Instance;
@@ -66,6 +70,13 @@ import net.minecraftforge.client.event.RenderGameOverlayEvent;
 		Achievements.loadAchievements();
 		//Stats.RegisterStats();
 
+		//CF.CAS_GUI();
+		
+			try {
+				ConsoleFrame.createAndShowGUI();
+			} catch (MalformedURLException e) {
+				e.printStackTrace();
+			}
 		
 	}
 

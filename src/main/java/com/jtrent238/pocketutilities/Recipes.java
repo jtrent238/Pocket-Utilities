@@ -24,6 +24,7 @@ public class Recipes {
 		GameRegistry.addShapedRecipe(new ItemStack(ItemLoader.ItemPocketBaseItem, 16), "ABZ", "BAZ", "ZZZ", 'A',Blocks.crafting_table, 'B' , Blocks.furnace);
 		GameRegistry.addShapedRecipe(new ItemStack(ItemLoader.ItemPocketWorkBench), "XXX", "XSX", "XXX", 'X',ItemLoader.ItemPocketBaseItem, 'S' , Blocks.crafting_table);
 		GameRegistry.addShapedRecipe(new ItemStack(ItemLoader.ItemPocketFurnace), "XXX", "XSX", "XXX", 'X',ItemLoader.ItemPocketBaseItem, 'S' , Blocks.furnace);
+		GameRegistry.addShapedRecipe(new ItemStack(ItemLoader.ItemPocketAnvil), "XXX", "XSX", "XXX", 'X',ItemLoader.ItemPocketBaseItem, 'S' , Blocks.anvil);
 		
 	}
 	/**

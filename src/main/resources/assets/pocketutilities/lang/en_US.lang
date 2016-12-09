@@ -1,11 +1,15 @@
 item.ItemPocketBaseItem.name=Pocket Base Item
 item.ItemPocketWorkBench.name=Pocket WorkBench
 item.ItemPocketFurnace.name=Pocket Furnace
+item.ItemPocketAnvil.name=Pocket Anvil
 
 
 achievement.CraftWorkbench=Pocket WorkBench
 achievement.CraftWorkbench.desc=Craft a Pocket WorkBench
 achievement.CraftFurnace=Pocket Furnace
 achievement.CraftFurnace.desc=Craft a Pocket Furnace
+achievement.CraftAnvil=Pocket Anvil
+achievement.CraftAnvil.desc=Craft a Pocket Anvil
+
 
 itemgroup.pocketutilities=jtrent238's Pocket Utilities
